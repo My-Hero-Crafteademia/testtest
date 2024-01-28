@@ -1,0 +1,299 @@
+{
+  "mod_elements": [
+    {
+      "name": "MenuModMAIN",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quirk_selector_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/network/MenuModMAINButtonMessage.java",
+          "src/main/java/net/mcreator/testgod/client/gui/MenuModMAINScreen.java",
+          "src/main/java/net/mcreator/testgod/world/inventory/MenuModMAINMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "MHC",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mhc",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CombatOverlay",
+      "type": "overlay",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/client/screens/CombatOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "DNAQuirkSelector",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_quirk_selector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/item/DNAQuirkSelectorItem.java",
+          "src/main/resources/assets/testgod/models/item/dna_quirk_selector.json",
+          "src/main/java/net/mcreator/testgod/item/inventory/DNAQuirkSelectorInventoryCapability.java"
+        ]
+      }
+    },
+    {
+      "name": "QuirkSelectionOFA",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quirk_selection_ofa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/QuirkSelectionOFAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Quirk Selections"
+    },
+    {
+      "name": "PrintCurrentQuirk",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "print_current_quirk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/PrintCurrentQuirkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuirkCommand",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quirk_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/command/QuirkCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "QuirkSelectionHcHh",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quirk_selection_hc_hh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/QuirkSelectionHcHhProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Quirk Selections"
+    },
+    {
+      "name": "ToggleCombatMode",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggle_combat_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/ToggleCombatModeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeybindCombatMode",
+      "type": "keybind",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keybind_combat_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/network/KeybindCombatModeMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OverlayQuirkNaming",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_quirk_naming",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/OverlayQuirkNamingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnShowCombatMode",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_show_combat_mode",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/ReturnShowCombatModeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnQuirkOFA",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_quirk_ofa",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/ReturnQuirkOFAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ReturnQuirk Proced"
+    },
+    {
+      "name": "ReturnQuirkHcHh",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_quirk_hc_hh",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/ReturnQuirkHcHhProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ReturnQuirk Proced"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "toggle_combatmode_overlay",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.testgod.quirk_selector_gui.button_halfcold_halfhot": "HalfCold HalfHot",
+      "key.testgod.keybind_combat_mode": "Keybind Combat Mode",
+      "item_group.testgod.mhc": "MHC",
+      "item.testgod.dna_quirk_selector": "DNA Quirk Selector",
+      "gui.testgod.quirk_selector_gui.button_one_for_all": "One for All",
+      "gui.testgod.quirk_selector_gui.label_quirk_selection": "Quirk Selection"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ReturnQuirk Proced",
+        "children": []
+      },
+      {
+        "name": "Quirk Selections",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "testgod",
+    "modName": "TestGod",
+    "version": "1.0.0",
+    "author": "PC-GAMER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.testgod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

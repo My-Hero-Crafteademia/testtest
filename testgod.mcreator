@@ -243,6 +243,20 @@
         ]
       },
       "path": "~/ReturnQuirk Proced"
+    },
+    {
+      "name": "TesteoGithubForro",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testeo_github_forro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testgod/procedures/TesteoGithubForroProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
